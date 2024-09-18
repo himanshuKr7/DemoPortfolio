@@ -122,7 +122,10 @@ nav .left{
               /* Hero-section */
 
 .hero-img img{
-    width: 400px;
+    width: 500px;
+}
+.hero-img{
+    display: block;
 }
 .heroSection{
     display: flex;
@@ -131,6 +134,7 @@ nav .left{
     align-items: center;
     gap: 7em;
     padding: 0 5rem;
+    height: 500px;
 }
 .hero-txt{
     color: var(--light);
@@ -437,6 +441,10 @@ footer{
     .hamburger{
         display: block;
     }
+    .hero-img img{
+        width: 300px;
+        height: 400px;
+    }
 
  }
 @media screen and (max-width:890px){
@@ -470,6 +478,9 @@ footer{
     }
     .icons{
         justify-content: center;
+    }
+    .hero-img{
+        display: none;
     }
     .aboutimg img{
          width: 350px;
